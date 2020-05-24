@@ -2,6 +2,9 @@
 body {
     margin: 60px auto;
     width: 70%;
+    color: blue;
+    background-color: #C0F0CF;
+    font-family:'Garamond', 'Times New Roman', 'Serif';
 }
 nav {
     background-color: #46BE6C;
