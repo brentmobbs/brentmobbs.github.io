@@ -1,6 +1,10 @@
+/* ul is unordered list, li is list item. nav is the "about," etc. header items. */
 body {
     margin: 60px auto;
     width: 70%;
+}
+nav {
+    background-color: #46BE6C;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
