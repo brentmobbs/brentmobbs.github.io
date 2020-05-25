@@ -19,6 +19,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+header {
+    padding: 60px;
+    text-align: left;
+    background: #1abc9c;
+    color: white;
+}
 a {
     text-decoration: none;
     color: #999;
