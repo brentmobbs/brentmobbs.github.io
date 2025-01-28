@@ -54,6 +54,7 @@ section h2 {
   margin: 2rem;
   background-color: #fff; /* White backdrop for entire card */
   padding: 1rem;
+  box-sizing: border-box; 
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
@@ -63,6 +64,7 @@ section h2 {
   width: 100%; /* Fit within the card */
   height: auto; /* Keep aspect ratio */
   border: 5px solid #fff;
+  box-sizing: border-box; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
 }
