@@ -91,3 +91,20 @@ footer {
 .linkedin-button:hover {
   background-color: #005C82;
 }
+
+@media (max-width: 600px) {
+  #profile-card {
+    float: none;
+    margin: 1rem auto;
+    width: auto;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  main {
+    padding: 0 0.5rem;
+  }
+}
