@@ -1,15 +1,15 @@
-/* Global page styles */
+/* Global */
 html, body {
   margin: 0;
   padding: 0;
   font-family: Garamond, serif;
-  background-color: #F5F5DC; /* Light beige */
+  background-color: #F5F5DC;
   color: #333;
 }
 
 /* Header */
 header {
-  background-color: #6F4E37; /* Coffee-brown */
+  background-color: #6F4E37;
   color: #fff;
   padding: 1rem;
 }
@@ -32,7 +32,7 @@ nav a {
   font-weight: bold;
 }
 
-/* Main content layout */
+/* Main layout */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -47,36 +47,35 @@ section h2 {
   margin-top: 0;
 }
 
-/* Floated card for photo + contact info */
+/* Floated 'card' for photo + contact */
 #profile-card {
   float: right;
-  width: 250px; /* Adjust as desired */
-  margin: 2rem 2rem 2rem 2rem; /* top right bottom left */
-  background-color: #fff;
+  width: 280px; /* Restrict card width */
+  margin: 2rem;
+  background-color: #fff; /* White backdrop for entire card */
   padding: 1rem;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-/* Profile photo styling */
+/* Profile photo inside the card */
 .profile-photo {
   display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto 1rem; /* centers the image, adds space below */
+  width: 100%; /* Fit within the card */
+  height: auto; /* Keep aspect ratio */
   border: 5px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 /* Footer */
 footer {
-  clear: both; /* ensures footer is below the floated aside */
+  clear: both;
   background-color: #6F4E37;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
 }
 
-/* LinkedIn button */
 .linkedin-button {
   display: inline-block;
   background-color: #0077B5;
