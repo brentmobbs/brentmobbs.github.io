@@ -50,3 +50,33 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
+
+/* Positions the image on the right with margin, a white border, and drop shadow */
+.profile-photo {
+  float: right;
+  margin-left: 1rem;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 200px; /* adjust as desired */
+}
+
+/* Styles the LinkedIn button in the footer */
+.linkedin-button {
+  display: inline-block;
+  background-color: #0077B5; /* LinkedIn's brand color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.linkedin-button:hover {
+  background-color: #005C82; /* Darker hover effect */
+}
+
+/* Clear the float below .profile-photo if content wraps uncomfortably */
+#profile {
+  overflow: auto;
+}
