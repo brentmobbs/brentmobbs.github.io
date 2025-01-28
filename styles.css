@@ -60,7 +60,7 @@ section h2 {
 /* Profile photo inside the card */
 .profile-photo {
   display: block;
-  max-width: 100%; /* Fit within the card */
+  max-width: calc(100% - 10px); /* Fit within the card */
   height: auto; /* Keep aspect ratio */
   border: 5px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
