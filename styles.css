@@ -7,7 +7,7 @@ html, body {
   color: #333;
 }
 
-/* Header area */
+/* Header */
 header {
   background-color: #6F4E37; /* Coffee-brown */
   color: #fff;
@@ -18,7 +18,6 @@ header h1 {
   margin: 0;
 }
 
-/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -33,7 +32,7 @@ nav a {
   font-weight: bold;
 }
 
-/* Main content area */
+/* Main content */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -48,14 +47,14 @@ section h2 {
   margin-top: 0;
 }
 
-/* Floated aside for the photo and contact info */
+/* Floated aside for photo + contact */
 #profile {
   float: right;
-  width: 220px; /* Adjust as desired */
-  margin: 1rem;
+  width: 250px; /* adjust as needed */
+  margin: 2rem;
 }
 
-/* Profile photo styling */
+/* Photo styling */
 .profile-photo {
   width: 100%;
   border: 5px solid #fff;
@@ -66,20 +65,20 @@ section h2 {
 /* Contact block styling */
 .contact-block {
   background-color: #fff;
-  padding: 0.5rem;
+  padding: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer area */
+/* Footer */
 footer {
-  clear: both; /* Ensures footer is below the floated aside */
-  background-color: #6F4E37;
+  clear: both;
+  background-color: #6F4E37; /* Coffee-brown */
   color: #fff;
   text-align: center;
   padding: 1rem 0;
 }
 
-/* LinkedIn button in the footer */
+/* LinkedIn button */
 .linkedin-button {
   display: inline-block;
   background-color: #0077B5;
