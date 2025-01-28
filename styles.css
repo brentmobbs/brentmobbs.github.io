@@ -71,7 +71,7 @@ section h2 {
 /* Footer */
 footer {
   clear: both;
-  background-color: #6F4E37;
+  background: linear-gradient(to top, #6F4E37, #4B392B);
   color: #fff;
   text-align: center;
   padding: 1rem 0;
