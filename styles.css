@@ -32,7 +32,7 @@ nav a {
   font-weight: bold;
 }
 
-/* Main content */
+/* Main content layout */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -47,32 +47,30 @@ section h2 {
   margin-top: 0;
 }
 
-/* Floated aside for photo + contact */
-#profile {
+/* Floated card for photo + contact info */
+#profile-card {
   float: right;
-  width: 250px; /* adjust as needed */
-  margin: 2rem 3rem 2rem 2rem; /* top, right, bottom, left */
-}
-
-/* Photo styling */
-.profile-photo {
-  width: 100%;
-  border: 5px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display: block;
-}
-
-/* Contact block styling */
-.contact-block {
+  width: 250px; /* Adjust as desired */
+  margin: 2rem 2rem 2rem 2rem; /* top right bottom left */
   background-color: #fff;
   padding: 1rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Profile photo styling */
+.profile-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem; /* centers the image, adds space below */
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */
 footer {
-  clear: both;
-  background-color: #6F4E37; /* Coffee-brown */
+  clear: both; /* ensures footer is below the floated aside */
+  background-color: #6F4E37;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
