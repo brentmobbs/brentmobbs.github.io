@@ -282,28 +282,6 @@ hr { border: 0; margin: 0; }
   color: var(--ink);
 }
 
-/* --- Focus areas ---------------------------------------------------------- */
-
-.focus { margin-top: clamp(2.25rem, 5vw, 3rem); }
-
-.focus__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 0 2.5rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.focus__list li {
-  padding: 0.8rem 0;
-  border-top: 1px solid var(--rule);
-  font-family: var(--font-display);
-  font-size: 1.0625rem;
-  line-height: 1.4;
-  color: var(--ink);
-}
-
 /* --- Experience ----------------------------------------------------------- */
 
 .entry + .entry { margin-top: clamp(2.25rem, 5vw, 3rem); }
