@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Effectiveness of Promoting Renewable Technology: Regression Analysis of Emissions – Brent D. Mobbs</title>
+  <link rel="preload" href="/assets/fonts/newsreader-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead__inner">
+      <a class="wordmark" href="/">Brent D. Mobbs</a>
+      <nav class="nav" aria-label="Site">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#articles">Articles</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <article>
+      <header class="article-head">
+        <p class="article-head__kicker">JURIST &mdash; Student Commentary <span class="dot" aria-hidden="true">&middot;</span> March 19, 2021</p>
+        <h1 class="article-head__title">The Effectiveness of Promoting Renewable Technology: Regression Analysis of Emissions</h1>
+        <p class="article-head__byline">By Brent Mobbs</p>
+        <hr class="accent-rule">
+      </header>
+
+      <div class="prose">
+        <p class="note">Brent Mobbs, JURIST Digital Scholar 2020, discusses how sustainable technology can be further incentivized in the US, for individuals, businesses, and utility companies. Mobbs uses data from the Energy Information Administration and the Bureau of Labor Statistics, among other sources, to investigate the effects of implementing Renewable Portfolio Standards on emissions and economies of different states...</p>
+        <p>For many states, Renewable Portfolio Standards (RPSs) are a primary method of reducing energy-related emissions and promoting clean energy. RPSs are strengthened in several different ways, and the technology they aim to promote varies between states. The most effective method for achieving the goals of RPSs is directly increasing the clean-energy percentage goals they set for utilities.</p>
+        <p>RPSs requires electricity suppliers to source a given amount of their electricity from renewable sources. Iowa adopted the first RPS in the United States &ndash; its <a href="https://programs.dsireusa.org/system/program/detail/265"><b>Alternative Energy (Production) Law</b></a>, enacted in 1983. It required the state&rsquo;s two utility companies to own a combined total of 105 Megawatts of renewable energy production. Eight years later, New Jersey passed its own RPS, the first percentage-based goal of the variety. Other states followed suit starting just before the turn of the century. Almost every participating state followed in New Jersey&rsquo;s footsteps, setting percentage goals. Today, 30 states and Washington, D.C., have adopted enforceable RPSs. About half of these RPSs have goals exceeding 50%, with several goals reaching 100% by or before 2045. An example of a typical strong RPS is <a href="https://programs.dsireusa.org/system/program/detail/606"><b>Hawaii</b></a>, which aims for 100% renewable energy by 2045.</p>
+        <p>Because states with strong RPSs are likely to push for renewable energy via other options, these options must also be explored. The chief options explored are two variants on RPSs &ndash; credit multipliers and technology-specific RPS carve-outs. The former allows electricity suppliers to count specific technologies (e.g. solar, wind) toward their RPS requirement more than once. The latter requires that a certain percent of the RPS requirement comes from a specific technology. <a href="https://programs.dsireusa.org/system/program/detail/1231"><b>Delaware</b></a>, for instance, has both carve-outs and credit multipliers for solar energy. Other major factors that may affect emissions include statewide emissions targets and carbon taxes or other special carbon pricing.</p>
+        <p>To analyze the effects of RPSs on state emissions, I ran two regression analyses. The analyses used each state&rsquo;s per capita energy-related carbon dioxide emissions as a percentage of their max value in the past 30 years. I did this to allow direct comparisons between different-sized states. I analyzed emissions as a function of a year&rsquo;s RPS percent, average credit multiplier, carve-out percents, emissions target, and whether special carbon pricing was in place. In the first analysis, I used each year in each state&rsquo;s history (since 1990) as a separate data point, resulting in 1,372 different data points. (Note that Iowa and Texas were excluded from all analyses, due to the incongruent nature of their RPS policies).</p>
+        <p>The second analysis only considered RPS percent, average credit multiplier, and carve-out percent. I performed this analysis on the averages for each variable over all states implementing enforceable RPSs. I shifted the data before taking these averages, such that each state lined up according to the year its RPS exceeded 1.5%. This resulted in a span of averages from 26 years before this &ldquo;year zero&rdquo; to 18 years after it. Very early and very late years averaged data from less than 16 of the 29 states&ndash; as a result, the analysis was conducted only on all other years (years -17 to 10 with respect to the &ldquo;year zero&rdquo; mentioned above).</p>
+        <p>The first regression analysis resulted in an R-squared value of only 6%. This indicates the strength of the correlation between emissions and all input variables and essentially means that only 6% of the variation in data points could be explained by the correlation. However, the P-value for RPS percent was 0.17%. For reference, any P-value below 5% indicates that change in the input variable (RPS percent) explains the change in the response variable (emissions). In other words, although there is a great deal of unexplained variance in the model, it is nearly certain that RPS percent has some effect on emissions. Likewise, special carbon pricing had a very low P-value of 0.02%.</p>
+        <p>By contrast, the variables used for credit multipliers, carve-outs, and state emissions targets had P-values exceeding 10%&ndash; much too high to conclude that they had any effect on emissions. (The method for specifying credit multipliers using averages may also have affected these conclusions.) That said, those techniques may be very effective for other purposes, such as promoting specific technologies. Additionally, there is no proof that these variables <i>do not</i> affect emissions&ndash; only a lack of proof otherwise.</p>
+        <p>The second regression analysis used only the three input variables related to RPSs (when averaged over every state including such policies), as well as a &ldquo;year&rdquo; variable to discover whether time itself had more of an effect on emissions than the implementation of RPS policies. Again, credit multipliers and carve-outs did not positively correlate with emissions. The year variable had a P-value of 0.74%, indicating that emissions decreased over time. Most interestingly, this regression analysis gave an R-squared value of 98% with the RPS variable having a P-value of 0.00000004%. It is almost certain, according to the model, that this input variable has a strong explanatory correlation with emissions. In the context of this analysis methodology, it means that for states that implement RPS plans, <i>on average</i>, for 10 years following the implementation of the plan, the strength of the plan directly influences carbon dioxide emissions (when compared to emissions for 17 years before the implementation of the plan).</p>
+        <p>The contributions of individual states to the model were also examined. By running 48 regression analyses analogous to the first, each excluding a different state, it was possible to see which states contributed most to the apparent results&ndash; Hawaii, New Mexico, and Washington, D.C. Excluding these states from analysis greatly weakened the certainty of RPSs effects on emissions. Though such cherry-picking of data cannot yield solid conclusions, the apparent fragility of the correlation must be noted.</p>
+        <p>Although a majority of states have implemented RPSs, many have not, and many existing RPSs set low percentage goals for utilities. To improve the effectiveness of these RPSs, the percentage goals they set should be increased. States without RPSs should adopt them as a method of promoting clean energy and reducing carbon dioxide emissions.</p>
+        <p><b>Appendix 1: State Significance&nbsp;</b>For those interested in the raw data, it can be viewed <a href="https://docs.google.com/spreadsheets/d/1L8-rz4qbNrZQRJnGDjVS1z4nmqZlOpmXJHAxjaC2bM0/edit?usp=sharing">here</a>. The spreadsheets contain data and analysis detailed in this article. Readers are encouraged to examine the first page of each spreadsheet, highlighting major insights.</p>
+        <p><strong>Appendix 2: Major Insights </strong>The data can be viewed <a href="https://docs.google.com/spreadsheets/d/1DFmP90rpy0dFt7kbNKdpt_APSfWchrxMj7IV-Cv2qEk/edit?usp=sharing">here</a>.</p>
+        <p><em>Brent Mobbs is a JURIST Digital Scholar Cohort of 2020. He graduated from the University of Texas at Austin with a degree in Mechanical Engineering in 2020 and is currently a J.D. Candidate at Harvard Law School.&nbsp;</em></p>
+        <p><strong>Suggested citation</strong>: Brent Mobbs, The Effectiveness of Promoting Renewable Technology: Regression Analysis of Emissions, JURIST &ndash; Student Commentary, March 19, 2020, https://www.jurist.org/commentary/2021/03/brent-mobbs-jds-rps-technology/.</p>
+        <hr>
+        <p class="fineprint">This article was prepared for publication by <a href="https://www.jurist.org/jurist_search.php?q=Vishwaajeet+Deshmukh">Vishwajeet Deshmukh</a>, a JURIST staff editor. Please direct any questions or comments to him at <a href="mailto:commentary@jurist.org">commentary@jurist.org.</a></p>
+
+        <div class="provenance">
+          <p>Originally published as <a class="link-ext" href="https://www.jurist.org/commentary/2021/03/brent-mobbs-jds-rps-technology/" target="_blank" rel="noopener">JURIST Student Commentary</a> on March 19, 2021.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>&copy; 2025&ndash;<span id="copyright-year">2026</span> Brent D. Mobbs</p>
+      <p><a href="/">Back to home</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

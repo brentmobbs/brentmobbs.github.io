@@ -21,6 +21,7 @@ beyond a one-line copyright-year updater. Deployed by GitHub Actions
    section of `index.html` and edit it. The comment above the Articles list
    explains each field.
 
-Entry titles currently link to the original publications; once a copy of a
-piece is hosted in `articles/`, point the title at the local file and keep the
-"Read at ..." link aimed at the source.
+Entry titles link to copies hosted on this site — HTML pages or PDFs under
+`articles/` — while each "Read at ..." link points to the original publication.
+The article pages reuse `/styles.css` (the `.article-head` and `.prose` styles),
+so a new one is easiest to start by copying an existing page in `articles/`.
