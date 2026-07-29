@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brent Mobbs – Attorney at Law</title>
+  <title>Brent D. Mobbs – Attorney at Law</title>
   <link rel="preload" href="assets/fonts/newsreader-latin-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
@@ -13,12 +13,13 @@
 
   <header class="masthead">
     <div class="masthead__inner">
-      <a class="wordmark" href="#top">Brent Mobbs</a>
+      <a class="wordmark" href="#top">Brent D. Mobbs</a>
       <nav class="nav" aria-label="Sections">
         <ul>
           <li><a href="#bio">Bio</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#articles">Articles</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#credentials">Credentials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -30,9 +31,9 @@
 
     <!-- Hero -->
     <section class="hero">
-      <h1 class="hero__name">Brent Mobbs</h1>
+      <h1 class="hero__name">Brent D. Mobbs</h1>
       <p class="hero__role">Intellectual Property Litigation</p>
-      <p class="hero__affiliation">Kirkland &amp; Ellis LLP <span class="dot" aria-hidden="true">&middot;</span> Los Angeles</p>
+      <p class="hero__affiliation">Cypress LLP <span class="dot" aria-hidden="true">&middot;</span> Los Angeles</p>
       <hr class="accent-rule">
     </section>
 
@@ -41,7 +42,7 @@
       <h2 class="section__heading"><span class="section__index" aria-hidden="true">01 /</span>Bio</h2>
       <div class="section__body">
         <p class="lede">
-          Brent Mobbs is an associate in the Intellectual Property Litigation Practice Group at Kirkland &amp; Ellis LLP in Los Angeles. They concentrate on intellectual property matters, including patent disputes, trade secret misappropriation, and copyright and trademark litigation.
+          Brent D. Mobbs is an attorney at Cypress LLP in Los Angeles. They concentrate on intellectual property matters, including patent disputes, trade secret misappropriation, and copyright and trademark litigation.
         </p>
         <p>
           With a strong commitment to client advocacy, Brent addresses complex legal challenges at the intersection of technology and law. Their background includes guiding clients through high-stakes IP litigation.
@@ -64,10 +65,11 @@
       <h2 class="section__heading"><span class="section__index" aria-hidden="true">02 /</span>Experience</h2>
       <div class="section__body">
         <div class="entry">
+          <h3 class="entry__title">Cypress LLP</h3>
+          <p class="entry__meta">2026 &ndash; Present</p>
+        </div>
+        <div class="entry">
           <h3 class="entry__title">Kirkland &amp; Ellis LLP</h3>
-          <p>
-            Associate in the Intellectual Property Litigation Practice Group, representing clients in patent infringement cases, trade secret disputes, and trademark matters. Advises on strategies for protecting and enforcing IP portfolios across diverse sectors, including technology and consumer goods.
-          </p>
         </div>
         <div class="entry">
           <h3 class="entry__title">Prior Experience</h3>
@@ -84,48 +86,62 @@
       <h2 class="section__heading"><span class="section__index" aria-hidden="true">03 /</span>Articles</h2>
       <div class="section__body">
         <!--
-          HOW TO ADD AN ARTICLE
-          Copy one <li class="article"> block below and edit it. Every part is optional
-          except the title, so an entry can be as short as a title and a single link.
-
-          Hosted file — drop the file (.pdf, .html, .docx, anything) into /articles
-          and link to it. The label is just text, so name it whatever fits:
-              <a href="articles/my-piece.pdf">Read PDF</a>
-
-          Source link — where it was originally published. Add class="link-ext" to get
-          the outward arrow, plus target/rel so it opens in a new tab:
-              <a class="link-ext" href="https://example.com/piece" target="_blank" rel="noopener">Source</a>
-
-          The three entries below are PLACEHOLDERS showing the file-only, link-only, and
-          both-links variants. Replace them with real articles, or delete the whole
-          <ol class="articles"> block if there is nothing to list yet.
+          ARTICLE ENTRIES
+          Each title currently links to the original publication. Once a copy of
+          an article lives on this site (drop the file into /articles), point the
+          title's href at that local file and keep the "Read at ..." link aimed
+          at the source. Add class="link-ext" plus target/rel to any link that
+          leaves this site.
         -->
         <ol class="articles">
           <li class="article">
-            <h3 class="article__title">Placeholder — entry with a hosted file and a source link</h3>
-            <p class="article__meta">Publication name <span class="dot" aria-hidden="true">&middot;</span> 2026</p>
+            <h3 class="article__title">
+              <a href="https://jolt.law.harvard.edu/digest/ftc-v-facebook-social-media-giant-sued-for-anticompetitive-conduct" target="_blank" rel="noopener">FTC v. Facebook: Social Media Giant Sued for Anticompetitive Conduct</a>
+            </h3>
+            <p class="article__meta">Harvard Journal of Law &amp; Technology, JOLT Digest <span class="dot" aria-hidden="true">&middot;</span> March 2021</p>
+            <p class="article__links">
+              <a class="link-ext" href="https://jolt.law.harvard.edu/digest/ftc-v-facebook-social-media-giant-sued-for-anticompetitive-conduct" target="_blank" rel="noopener">Read at JOLT Digest</a>
+            </p>
+          </li>
+
+          <li class="article">
+            <h3 class="article__title">
+              <a href="https://lumendatabase.org/blog_entries/ghost-guns-and-the-1st-amendment" target="_blank" rel="noopener">Ghost Guns and the 1st Amendment</a>
+            </h3>
+            <p class="article__meta">Lumen Database <span class="dot" aria-hidden="true">&middot;</span> July 2021</p>
+            <p class="article__links">
+              <a class="link-ext" href="https://lumendatabase.org/blog_entries/ghost-guns-and-the-1st-amendment" target="_blank" rel="noopener">Read at Lumen</a>
+            </p>
+          </li>
+
+          <li class="article">
+            <h3 class="article__title">
+              <a href="https://www.jurist.org/commentary/2021/03/brent-mobbs-jds-rps-technology/" target="_blank" rel="noopener">The Effectiveness of Promoting Renewable Technology: Regression Analysis of Emissions</a>
+            </h3>
+            <p class="article__meta">JURIST Commentary <span class="dot" aria-hidden="true">&middot;</span> March 2021</p>
+            <p class="article__links">
+              <a class="link-ext" href="https://www.jurist.org/commentary/2021/03/brent-mobbs-jds-rps-technology/" target="_blank" rel="noopener">Read at JURIST</a>
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2 class="section__heading"><span class="section__index" aria-hidden="true">04 /</span>Projects</h2>
+      <div class="section__body">
+        <ol class="articles">
+          <li class="article">
+            <h3 class="article__title">
+              <a href="https://clinic.cyber.harvard.edu/2022/01/01/public-resource-org-works-wcyberlaw-clinic-asks-states-to-increase-judicial-transparency-and-facilitate-access-to-model-jury-instructions/" target="_blank" rel="noopener">Public Access to Model Jury Instructions</a>
+            </h3>
+            <p class="article__meta">Public.Resource.Org &times; Harvard Cyberlaw Clinic <span class="dot" aria-hidden="true">&middot;</span> January 2022</p>
             <p class="article__summary">
-              An optional line or two describing what the piece argues, for readers skimming the list.
+              Clinic project with Public.Resource.Org asking states to increase judicial transparency and facilitate access to model jury instructions.
             </p>
             <p class="article__links">
-              <a href="articles/placeholder.pdf">Read PDF</a>
-              <a class="link-ext" href="https://example.com/placeholder" target="_blank" rel="noopener">Source</a>
-            </p>
-          </li>
-
-          <li class="article">
-            <h3 class="article__title">Placeholder — entry with a hosted file only</h3>
-            <p class="article__meta">Working paper <span class="dot" aria-hidden="true">&middot;</span> 2025</p>
-            <p class="article__links">
-              <a href="articles/placeholder.pdf">Read PDF</a>
-            </p>
-          </li>
-
-          <li class="article">
-            <h3 class="article__title">Placeholder — entry that links out only</h3>
-            <p class="article__meta">Publication name <span class="dot" aria-hidden="true">&middot;</span> 2024</p>
-            <p class="article__links">
-              <a class="link-ext" href="https://example.com/placeholder" target="_blank" rel="noopener">Read at Publication</a>
+              <a class="link-ext" href="https://clinic.cyber.harvard.edu/2022/01/01/public-resource-org-works-wcyberlaw-clinic-asks-states-to-increase-judicial-transparency-and-facilitate-access-to-model-jury-instructions/" target="_blank" rel="noopener">Read at the Cyberlaw Clinic</a>
             </p>
           </li>
         </ol>
@@ -134,7 +150,7 @@
 
     <!-- Credentials -->
     <section id="credentials" class="section">
-      <h2 class="section__heading"><span class="section__index" aria-hidden="true">04 /</span>Credentials</h2>
+      <h2 class="section__heading"><span class="section__index" aria-hidden="true">05 /</span>Credentials</h2>
       <div class="section__body">
         <dl class="creds">
           <div class="creds__row">
@@ -151,24 +167,25 @@
 
     <!-- Contact -->
     <section id="contact" class="section">
-      <h2 class="section__heading"><span class="section__index" aria-hidden="true">05 /</span>Contact</h2>
+      <h2 class="section__heading"><span class="section__index" aria-hidden="true">06 /</span>Contact</h2>
       <div class="section__body">
         <div class="contact">
-          <img class="portrait" src="assets/mobbs-brent.jpg" alt="Portrait of Brent Mobbs" width="400" height="400" loading="lazy" decoding="async">
+          <img class="portrait" src="assets/mobbs-brent.jpg" alt="Portrait of Brent D. Mobbs" width="400" height="400" loading="lazy" decoding="async">
           <div class="contact__details">
             <div class="contact__group">
               <h3 class="eyebrow">Office</h3>
               <p>
-                Kirkland &amp; Ellis LLP<br>
-                555 South Flower Street, Suite 3700<br>
-                Los Angeles, CA 90071
+                Cypress LLP<br>
+                1925 Century Park East<br>
+                Suite 1700<br>
+                Los Angeles, California 90067
               </p>
             </div>
             <div class="contact__group">
               <h3 class="eyebrow">Direct</h3>
               <p>
-                <a href="tel:+12136808346">+1 213-680-8346</a><br>
-                <a href="mailto:brent.mobbs@kirkland.com">brent.mobbs@kirkland.com</a>
+                <a href="tel:+14249010141">(424) 901-0141</a><br>
+                <a href="mailto:bmobbs@cypressllp.com">bmobbs@cypressllp.com</a>
               </p>
             </div>
             <div class="contact__group">
@@ -186,9 +203,11 @@
 
   <footer class="footer">
     <div class="footer__inner">
-      <p>&copy; 2025 Brent Mobbs</p>
+      <p>&copy; 2025&ndash;<span id="copyright-year">2026</span> Brent D. Mobbs</p>
       <p><a href="#top">Back to top</a></p>
     </div>
   </footer>
+
+  <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
