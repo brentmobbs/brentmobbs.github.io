@@ -44,8 +44,8 @@
   --sand-line: #E5DACA;
   --sand-deep: #F4EDE0;
   --sand-deep-line: #E3D8C3;
-  --masthead-bg: #EDE5D4;
-  --masthead-line: #DCCFB6;
+  --masthead-bg: #E9DEC7;
+  --masthead-line: #D5C6A6;
   --umber: #2B2A21;
   --umber-deep: #201F18;
 
@@ -605,16 +605,6 @@ hr { border: 0; margin: 0; }
   padding-left: 1.5em;
 }
 .prose li { margin-bottom: 0.35em; }
-
-/* Editorial note box (e.g. a publication's introduction to the piece). */
-.prose .note {
-  padding: 1.1rem 1.35rem;
-  margin: 0 0 1.6em;
-  background-color: var(--sand);
-  border: 1px solid var(--sand-line);
-  border-radius: 2px;
-  font-size: 1.03rem;
-}
 
 .provenance {
   clear: both;
