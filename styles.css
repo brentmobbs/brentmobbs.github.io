@@ -40,12 +40,12 @@
   --accent-hover: #2E5A47;
   --accent-faint: rgba(31, 61, 48, 0.28);
   --clay: #96502F;
-  --sand: #F2ECE1;
-  --sand-line: #E5DACA;
-  --sand-deep: #F4EDE0;
-  --sand-deep-line: #E3D8C3;
-  --masthead-bg: #E9DEC7;
-  --masthead-line: #D5C6A6;
+  --sage: #EAEFE4;
+  --sage-line: #D5DEC9;
+  --moss: #DDE6D6;
+  --moss-line: #C5D3BB;
+  --masthead-bg: #8C6D4F;
+  --masthead-line: #7A5D42;
   --umber: #2B2A21;
   --umber-deep: #201F18;
 
@@ -172,10 +172,10 @@ hr { border: 0; margin: 0; }
   font-size: 1.0625rem;
   font-weight: 500;
   letter-spacing: -0.005em;
-  color: var(--ink);
+  color: #FFFFFF;
   text-decoration: none;
 }
-.wordmark:hover { color: var(--accent); }
+.wordmark:hover { color: #F1E7D6; }
 
 .nav {
   min-width: 0;
@@ -202,14 +202,14 @@ hr { border: 0; margin: 0; }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   white-space: nowrap;
-  color: #565A52; /* a step darker than --ink-muted for contrast on the sand bar */
+  color: rgba(255, 255, 255, 0.88);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 .nav a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent-faint);
+  color: #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
 /* --- Hero ----------------------------------------------------------------- */
@@ -255,9 +255,14 @@ hr { border: 0; margin: 0; }
    Full-bleed background bands that divide the page. Each band re-declares the
    color tokens, so everything inside adapts without per-element overrides. */
 
-.band--sand {
-  background-color: var(--sand-deep);
-  --rule: var(--sand-deep-line);
+.band--sage {
+  background-color: var(--sage);
+  --rule: var(--sage-line);
+}
+
+.band--moss {
+  background-color: var(--moss);
+  --rule: var(--moss-line);
 }
 
 .band--earth {
