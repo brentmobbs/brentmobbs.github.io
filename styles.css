@@ -479,7 +479,21 @@ hr { border: 0; margin: 0; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.45;
+  opacity: var(--shield-opacity, 0.45);
+  transition: opacity 0.2s ease;
+}
+
+a.edu__badge:hover .edu__shield { opacity: 0.9; }
+
+/* Credential title links read as plain text, underlining only on hover. */
+.edu__school a {
+  color: inherit;
+  text-decoration: none;
+}
+.edu__school a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .edu__degree {
