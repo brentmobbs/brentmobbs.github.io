@@ -502,8 +502,12 @@ hr { border: 0; margin: 0; }
     1.4px -1.4px 0 var(--school, var(--ink)),
     -1.4px 1.4px 0 var(--school, var(--ink)),
     -1.4px -1.4px 0 var(--school, var(--ink)),
-    0 0 7px var(--school, var(--ink)),
-    0 0 14px var(--school, var(--ink));
+    0 0 4px var(--school, var(--ink)),
+    0 0 4px var(--school, var(--ink)),
+    0 0 9px var(--school, var(--ink)),
+    0 0 9px var(--school, var(--ink)),
+    0 0 16px var(--school, var(--ink)),
+    0 0 26px var(--school, var(--ink));
 }
 
 .edu__school {
