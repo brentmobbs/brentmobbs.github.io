@@ -494,14 +494,14 @@ hr { border: 0; margin: 0; }
   /* School-color halo: the zero-blur shadows form a fully opaque rim right
      at the letter edge, the blurred ones let it bloom outward. */
   text-shadow:
-    2px 0 0 var(--school, var(--ink)),
-    -2px 0 0 var(--school, var(--ink)),
-    0 2px 0 var(--school, var(--ink)),
-    0 -2px 0 var(--school, var(--ink)),
-    1.4px 1.4px 0 var(--school, var(--ink)),
-    1.4px -1.4px 0 var(--school, var(--ink)),
-    -1.4px 1.4px 0 var(--school, var(--ink)),
-    -1.4px -1.4px 0 var(--school, var(--ink)),
+    1px 0 0 var(--school, var(--ink)),
+    -1px 0 0 var(--school, var(--ink)),
+    0 1px 0 var(--school, var(--ink)),
+    0 -1px 0 var(--school, var(--ink)),
+    0.7px 0.7px 0 var(--school, var(--ink)),
+    0.7px -0.7px 0 var(--school, var(--ink)),
+    -0.7px 0.7px 0 var(--school, var(--ink)),
+    -0.7px -0.7px 0 var(--school, var(--ink)),
     0 0 4px var(--school, var(--ink)),
     0 0 4px var(--school, var(--ink)),
     0 0 9px var(--school, var(--ink)),
