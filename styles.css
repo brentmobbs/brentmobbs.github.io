@@ -479,7 +479,7 @@ hr { border: 0; margin: 0; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: var(--shield-opacity, 0.45);
+  opacity: var(--shield-opacity, 0.38);
   transition: opacity 0.2s ease;
 }
 
