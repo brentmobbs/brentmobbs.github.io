@@ -484,7 +484,6 @@ hr { border: 0; margin: 0; }
 
 .edu__degree {
   position: relative;
-  padding: 0.24rem 0.5rem;
   font-family: var(--font-display);
   font-size: 1.35rem;
   font-weight: 500;
@@ -492,10 +491,19 @@ hr { border: 0; margin: 0; }
   letter-spacing: 0.01em;
   text-align: center;
   color: #FFFFFF;
-  /* solid school-color chip keeps the white lettering legible over the
-     shields' white linework */
-  background-color: var(--school, var(--ink));
-  border-radius: 2px;
+  /* School-color halo: the zero-blur shadows form a fully opaque rim right
+     at the letter edge, the blurred ones let it bloom outward. */
+  text-shadow:
+    2px 0 0 var(--school, var(--ink)),
+    -2px 0 0 var(--school, var(--ink)),
+    0 2px 0 var(--school, var(--ink)),
+    0 -2px 0 var(--school, var(--ink)),
+    1.4px 1.4px 0 var(--school, var(--ink)),
+    1.4px -1.4px 0 var(--school, var(--ink)),
+    -1.4px 1.4px 0 var(--school, var(--ink)),
+    -1.4px -1.4px 0 var(--school, var(--ink)),
+    0 0 7px var(--school, var(--ink)),
+    0 0 14px var(--school, var(--ink));
 }
 
 .edu__school {
